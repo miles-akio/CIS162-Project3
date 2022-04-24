@@ -1,0 +1,139 @@
+@charset "utf-8";
+
+/*
+   CIS 162 - HTML & CSS
+
+   Style Sheet for the Layout of the CIS 162 Project 3
+   Author: Miles Shinmachi
+   Date: April 23, 2022
+
+   Filename: styles.css
+*/
+
+/* Body Styles */
+body {
+    background-color: black;
+    font-family: 'Times New Roman', serif;
+}
+
+/* Body Header Styles */
+body > header > img {
+    display: block;
+    width: 100%;
+    margin-top: 0;
+}
+body > header > nav.horizontalNavigation li {
+    width: 10%;
+}
+
+/* Horizontal Navigation Styles */
+nav.horizontalNavigation li {
+    display: block;
+    float: left;
+    background-color: white;
+
+}
+
+nav.horizontalNavigation a {
+    display: block;
+    text-align: center;
+    padding: 1.0em;
+    width: 40%;
+}
+
+nav.horizontalNavigation a {
+   font-family: 'Permanent Marker', cursive;
+   font-size: 1.2em;
+   line-height: 0.5em;
+   text-align: center;
+   padding-left: 3em;
+   padding-right: 2.7em;
+}
+
+nav.horizontalNavigation a:link,
+nav.horizontalNavigation a:visited {
+   color: rgb(50, 0, 0);
+}
+
+nav.horizontalNavigation a:hover,
+nav.horizontalNavigation a:active {
+    background-color: clear}
+
+/* Header Styles */
+header {
+    background-color: #DFE0E2;
+}
+
+/* Header1 and Header2 Styles */
+h1, h2 {
+    color: black;
+    background-color: #DFE0E2;
+    font-family: 'Permanent Marker', cursive;    padding: 0.5em;
+}
+
+/* Body Styles */
+nav > ul {
+    line-height: 2em;
+    list-style-type: none;
+    padding-left: 50px;
+    margin: 0;
+}
+
+section {
+    background-color: #CFD7C7;
+    width: 70%;
+    font-size: 1.0em;
+}
+
+/* Container Styles */
+container {
+    background-color: black;
+    color: white;
+    font-family: 'Permanent Marker', cursive;    padding: 0.5em;
+}
+
+
+/* Footer Styles */
+footer {
+    background-color: white;
+    font-family: 'American Typewriter', serif;
+    font-size: 1.0em;
+    text-align: center;
+    bottom: 0px;
+    clear: left;
+    color: black;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+/* Left Column Styles */
+section#leftColumn {
+    clear: left;
+    float: left;
+    padding: 1.5em;
+    width: 56.3%;
+}
+
+/* Left Column Styles */
+section#leftColumn2 {
+    clear: left;
+    float: left;
+    padding: 1.5em;
+    width: 56.3%;
+}
+
+/* Right Column Styles */
+section#rightColumn {
+    clear: right;
+    float: right;
+    padding: 1.5em;
+    width: 38.2%;
+}
+
+.navlogo {
+    position: absolute;
+    height: auto;
+    left: 271px;
+    width: 120px;
+    height: 47.5px;
+}
